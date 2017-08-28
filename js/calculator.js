@@ -1,17 +1,19 @@
 "use strict";
 
-function btnClick(btn){
+function btnClick(btn) {
     if (document.calculator.operator.value && document.calculator.left.value !== "") {
         document.calculator.right.value += btn.getAttribute("value");
-    }else{
+    } else {
         document.calculator.left.value += btn.getAttribute("value");
     }
 
 }
 
+
 function operClick(btn) {
     document.calculator.operator.value = btn.getAttribute("value");
 }
+
 
 function runClear() {
     document.calculator.left.value = "";
@@ -26,5 +28,6 @@ function total() {
     document.calculator.operator.value = "";
     document.calculator.right.value = "";
 }
+
 
 
