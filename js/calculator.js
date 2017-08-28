@@ -10,7 +10,7 @@ function run3() {
     document.calculator.result.value += "3";
 }
 function plus() {
-    document.calculator.result.value += "+";
+    document.calculator.operator.value += "+";
 }
 
 
@@ -24,7 +24,7 @@ function run6() {
     document.calculator.result.value += "6";
 }
 function minus() {
-    document.calculator.result.value += "-";
+    document.calculator.operator.value += "-";
 }
 
 
@@ -39,7 +39,7 @@ function run9() {
     document.calculator.result.value += "9";
 }
 function multiply() {
-    document.calculator.result.value += "*";
+    document.calculator.operator.value += "*";
 
 }
 
@@ -57,11 +57,11 @@ function total() {
     document.calculator.result.value = evaluate;
 }
 function runDivide() {
-    document.calculator.result.value += "/";
+    document.calculator.operator.value += "/";
 }
 //
-function operate () {
-    var operation = (document.calculator.operator.value)
-    document.calculator.operator = operation
-
-}
+// function operate () {
+//     var operation = (document.calculator.operator.value)
+//     document.calculator.operator = operation
+//
+// }
