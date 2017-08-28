@@ -14,9 +14,9 @@
 <form name="calculator">
 
     <div class="row-col">
-        <div><input type="text" value=""  class="column big result" name="result"></div>
-        <div><input type="text" value=""  class="column small operator" ></div>
-        <div><input type="text" value=""  class="column big result" ></div>
+        <div><input type="text" value=""  class="big-column-one" name="left"></div>
+        <div><input type="text" value=""  class="operator" name="operator"></div>
+        <div><input type="text" value=""  class="big-column-two" name="right"></div>
 
        <!--<input name="result">-->
     </div>
@@ -29,29 +29,26 @@
 
         <div class="keys">
 
-
-
-
             <!-- operators and other keys -->
-            <input type="button" name="1" value="1" onClick="run1()">
-            <input type="button" name="2" value="2" onClick="run2()">
-            <input type="button" name="3" value="3" onClick="run3()">
-            <input type="button" name="+" class="operator" value="+" onClick="plus()">
+            <input type="button" name="1" value="1" onClick="btnClick(this)">
+            <input type="button" name="2" value="2" onClick="btnClick(this)">
+            <input type="button" name="3" value="3" onClick="btnClick(this)">
+            <input type="button" name="+" class="operator" value="+" onClick="operClick(this)">
             <br>
-            <input type="button" name="4" value="4" onClick="run4()">
-            <input type="button" name="5" value="5" onClick="run5()">
-            <input type="button" name="6" value="6" onClick="run6()">
-            <input type="button" name="-" class="operator" value="-" onClick="minus()">
+            <input type="button" name="4" value="4" onClick="btnClick(this)">
+            <input type="button" name="5" value="5" onClick="btnClick(this)">
+            <input type="button" name="6" value="6" onClick="btnClick(this)">
+            <input type="button" name="-" class="operator" value="-" onClick="operClick(this)">
             <br>
-            <input type="button" name="7" value="7" onClick="run7()">
-            <input type="button" name="8" value="8" onClick="run8()">
-            <input type="button" name="9" value="9" onClick="run9()">
-            <input type="button" name="*" class="operator" value="*" onClick="multiply()">
+            <input type="button" name="7" value="7" onClick="btnClick(this)">
+            <input type="button" name="8" value="8" onClick="btnClick(this)">
+            <input type="button" name="9" value="9" onClick="btnClick(this)">
+            <input type="button" name="*" class="operator" value="*" onClick="operClick(this)">
             <br>
             <input type="button" name="C" class="clear" value="C" onClick="runClear()">
-            <input type="button" name="0" value="0" onClick="run0()">
+            <input type="button" name="0" value="0" onClick="btnClick(this)">
             <input type="button" name="=" class="eval" value="=" onClick="total()">
-            <input type="button" name="/" class="operator" value="/" onClick="runDivide()">
+            <input type="button" name="/" class="operator" value="/" onClick="operClick(this)">
         </div>
 
 
