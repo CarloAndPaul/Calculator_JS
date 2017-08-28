@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator JS</title>
-    <script src="js/calculator.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
 </head>
 <body>
+<script src="js/calculator.js"></script>
+</div>
 
-<div id="calculator">
-    <!-- Screen and clear key -->
-    <div class="top">
-        <div class="screen"></div>
+<form name="calculator">
+
+    <div class="row left">
+
+       <input name="result">
+
     </div>
+        <!-- Screen and clear key -->
+        <!--<div class="top">-->
+            <!--<div class="screen">-->
+                <!--<input name="display" type="text" placeholder="0">-->
+            <!--</div>-->
+        <!--</div>-->
 
-    <div class="keys">
+        <div class="keys">
 
-        <form name="calculator">
+
+
+
             <!-- operators and other keys -->
-            <input type="button" value="1">
+            <input type="button" name="1" value="1" onClick="run1()">
             <input type="button" value="2">
             <input type="button" value="3">
             <input type="button" class="operator" value="+">
@@ -36,9 +49,10 @@
             <input type="button" value="0">
             <input type="button" class="eval" value="=">
             <input type="button" class="operator" value="/">
-        </form>
-    </div>
-</div>
+        </div>
+
+
+</form>
 
 
 </body>
