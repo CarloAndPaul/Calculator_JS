@@ -40,6 +40,7 @@ function run9() {
 }
 function multiply() {
     document.calculator.result.value += "*";
+
 }
 
 
@@ -51,10 +52,16 @@ function run0() {
     document.calculator.result.value += "0";
 }
 function total() {
-    var evaluate= eval(document.calculator.result.value);
+    var evaluate = eval(document.calculator.result.value);
 
     document.calculator.result.value = evaluate;
 }
 function runDivide() {
     document.calculator.result.value += "/";
+}
+//
+function operate () {
+    var operation = (document.calculator.operator.value)
+    document.calculator.operator = operation
+
 }

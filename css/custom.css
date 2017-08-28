@@ -1,3 +1,22 @@
 input.col-sm-5 {
     padding-right: 50px;
 }
+
+input.operator{
+    color: red;
+}
+
+.column.big {
+    width: 36px;
+    display: inline;
+    flex-direction: row;
+}
+.column.small {
+    width: 12px;
+    display: inline;
+    flex-direction: row;
+}
+
+.row-col {
+    display: flex;
+}

@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator JS</title>
-    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/custom.css">
 
 </head>
 <body>
 <script src="js/calculator.js"></script>
-</div>
+
+<div class="container">
 
 <form name="calculator">
 
-    <div class="row left">
+    <div class="row-col">
+        <div><input type="text" value=""  class="column big result" name="result"></div>
+        <div><input type="text" value=""  class="column small operator" ></div>
+        <div><input type="text" value=""  class="column big result" ></div>
 
-       <input name="result">
-
+       <!--<input name="result">-->
     </div>
         <!-- Screen and clear key -->
         <!--<div class="top">-->
@@ -53,6 +56,7 @@
 
 
 </form>
+</div>
 
 
 </body>
