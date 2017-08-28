@@ -1,22 +1,64 @@
-input.col-sm-5 {
-    padding-right: 50px;
+body {
+    width: 100%;
 }
+
+.container {
+    width: 18%;
+    background: linear-gradient(to right, gray, deepskyblue, gray);
+
+    padding: 10px;
+}
+
 
 input.operator{
     color: red;
 }
 
-.column.big {
+.big-column-one {
     width: 36px;
     display: inline;
-    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 20%;
+
 }
-.column.small {
-    width: 12px;
-    display: inline;
-    flex-direction: row;
+.operator {
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding-right: 10px;
+
+
 }
+.big-column-two {
+    width: 36px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
 
 .row-col {
     display: flex;
 }
+
+.a {
+    width: 22px;
+    border-radius: 10%;
+  position: relative;
+bottom: 1px;
+}
+.n{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.big-column-one, .big-column-two, .operator{
+    margin: 1px;
+
+}
+input.n{
+    padding-top:0;
+    font-size: 20px;
+    color: red;
+}
+
+
+
