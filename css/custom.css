@@ -3,8 +3,10 @@ body {
 }
 
 .container {
-    width: 18%;
-    background: linear-gradient(to right, gray, deepskyblue, gray);
+    width: 15%;
+    height: 260px;
+    background: linear-gradient(to right, gray, deepskyblue, #dbebff, deepskyblue ,gray);
+    border: 5px solid #080600;
 
     padding: 10px;
 }
@@ -15,24 +17,27 @@ input.operator{
 }
 
 .big-column-one {
-    width: 36px;
+    width: 60px;
+    height: 20px;
     display: inline;
     border: 1px solid black;
-    border-radius: 20%;
+    border-radius: 10%;
 
 }
 .operator {
-    width: 10px;
+    width: 20px;
+    height: 20px;
     border: 1px solid black;
-    border-radius: 20%;
+    border-radius: 10%;
     padding-right: 10px;
 
 
 }
 .big-column-two {
-    width: 36px;
+    width: 60px;
+    height: 20px;
     border: 1px solid black;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 
@@ -40,25 +45,24 @@ input.operator{
     display: flex;
 }
 
-.a {
-    width: 22px;
-    border-radius: 10%;
-  position: relative;
-bottom: 1px;
-}
-.n{
-    font-size: 15px;
-    font-weight: bolder;
-}
+
 .big-column-one, .big-column-two, .operator{
-    margin: 1px;
+    margin-left: 10px;
 
 }
-input.n{
-    padding-top:0;
+
+.buttons {
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 0
+
+}
+h3 {
+    text-align: center;
+}
+input {
     font-size: 20px;
-    color: red;
 }
-
-
 
