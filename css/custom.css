@@ -1,67 +1,64 @@
-.body {
-    padding-right: 0;
-    margin-right:0;
+body {
+    width: 100%;
 }
 
 .container {
-    background: linear-gradient(to right, gray, deepskyblue, gray, deepskyblue,gray);
-    width: 20%;
-    height: 300px;
+    width: 18%;
+    background: linear-gradient(to right, gray, deepskyblue, gray);
+
     padding: 10px;
-    margin: auto;
-    border-radius: 10px;
-    margin-top: 80px;
-    border: 2px solid black;
+}
+
+
+input.operator{
+    color: red;
+}
+
+.big-column-one {
+    width: 36px;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 20%;
+
+}
+.operator {
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding-right: 10px;
 
 
 }
+.big-column-two {
+    width: 36px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
 
 .row-col {
     display: flex;
 }
 
-
-.big-column-one {
-    width:75px;
-    display: inline;
-    border: 1px solid black;
-    border-radius: 5%;
+.a {
+    width: 22px;
+    border-radius: 10%;
+  position: relative;
+bottom: 1px;
 }
-
-#box {
-    width: 30px;
-
-}
-
-.operator {
-    border: 1px solid black;
-    border-radius: 5%;
-    color: red;
+.n{
+    font-size: 15px;
     font-weight: bolder;
-    height: 200px;
 }
-
-.big-column-two {
-    width: 75px;
-    border: 1px solid black;
-    border-radius: 5%;
-}
-
 .big-column-one, .big-column-two, .operator{
-    height: 30px;
     margin: 1px;
-    font-size: 20px;
-}
-
-.buttons {
-    width: 45px;
-    position: relative;
-    top: 30px;
-    left: 4px;
-    font-size: 20px;
-    font-weight: bolder;
-    padding-top: 2px;
 
 }
+input.n{
+    padding-top:0;
+    font-size: 20px;
+    color: red;
+}
+
 
 
