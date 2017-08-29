@@ -3,12 +3,15 @@ body {
 }
 
 .container {
-    width: 15%;
-    height: 260px;
+    width: 17%;
+    height: 270px;
     background: linear-gradient(to right, gray, deepskyblue, #dbebff, deepskyblue ,gray);
     border: 5px solid #080600;
+    border-radius: 10px;
 
+    margin: auto;
     padding: 10px;
+
 }
 
 
@@ -47,13 +50,13 @@ input.operator{
 
 
 .big-column-one, .big-column-two, .operator{
-    margin-left: 10px;
+    margin-left: 16px;
 
 }
 
 .buttons {
     width: 35px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 10px;
     font-size: 15px;
     padding: 0
