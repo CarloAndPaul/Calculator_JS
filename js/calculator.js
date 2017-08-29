@@ -27,6 +27,16 @@ function total() {
     document.calculator.left.value = total;
     document.calculator.operator.value = "";
     document.calculator.right.value = "";
+// }
+
+// function decimal() {
+//     if (document.calculator.decimal.getAnonymousElementByAttribute("value") < 1) {
+//         document.calculator.decimal.getAnonymousElementByAttribute("value") === true
+//
+//
+//     }
+
+
 }
 
 
